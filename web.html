@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1 style="background-color:#40E0D0;
+    color:white;
+    font-size:500%;
+    margin-right:100px;
+    margin-left: 50px;">StocksApi</h1>
+  <form action="http://localhost:3000/id" method="post">
+  <h3 style="display: inline;
+  color:#40E0D0;
+  margin:1.5%;
+  column-gap:40%;
+  padding: 5px 5px;
+  border: 1px ;
+  margin:4px 2px;
+  margin-left: 50px">SYMBOL</h3>
+  <textarea style=" padding:12px 20px; margin:8px 0; box-sixing:border-box; border-radius:4px" rows="1" cols="5" id="symbol" name="ssymbol"></textarea>
+  <br/>
+  <h3 style="display: inline;
+  color:#40E0D0;
+  margin:1.5%;
+  padding: 5px 5px;
+  border: 1px ;
+  margin-left: 50px;">OPTIONS<select style="width: 10%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;" name="options"></h3>
+
+    <option value="MONTH">MONTH</option>
+    <option value="WEEK">WEEK</option>
+    <option value="DAILY">DAILY</option>
+    <input style="background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;border-radius:4px" type="submit"  value="submit"  name="submit" />
+  </form>
+  <h4 style="display: inline;
+  color:#40E0D0;
+  margin:1.5%;
+  padding: 5px;
+  border: 1px ;
+  margin-left: 50px">DAILY</h4>
+  <p style="margin-left: 50px;
+  margin-right:100px;
+  color:black">This API returns raw (as-traded) daily time series (date, daily open, daily high, daily low, daily close, daily volume) of the global equity specified, covering 20+ years of historical data.</p>
+  <h4 style="display: inline;
+  color:#40E0D0;
+  margin:1.5%;
+  padding: 5px;
+  border: 1px ;
+  margin-left: 50px">WEEKLY</h4>
+  <p style="margin-left: 50px;
+  margin-right:100px;
+  color:black">This API returns weekly time series (last trading day of each week, weekly open, weekly high, weekly low, weekly close, weekly volume) of the global equity specified, covering 20+ years of historical data.</p>
+
+  <h4 style="display: inline;
+  color:#40E0D0;
+  margin:1.5%;
+  padding: 5px;
+  border: 1px ;
+  margin-left: 50px">MONTHLY</h4>
+  <p style="margin-left: 50px;
+  margin-right:100px;
+  color:black">This API returns monthly time series (last trading day of each month, monthly open, monthly high, monthly low, monthly close, monthly volume) of the global equity specified, covering 20+ years of historical data.</p>
+
+</body>
+</html>
