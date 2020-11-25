@@ -15,4 +15,4 @@ Clone the repository
 nodemon index
 enter the stock symbol of the required company.
 ### License
-MIT(https://github.com/Anvi_ranka/basicKernel/blob/master/LICENSE)
+[MIT](https://github.com/Anvi_ranka/basicKernel/blob/master/LICENSE)
